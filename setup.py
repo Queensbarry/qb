@@ -1,11 +1,13 @@
 from setuptools import find_packages, setup
 
 
+VERSION = '0.0.2'
+
 setup(
     name='queensbarry',
-    version='0.0.2',
+    version=VERSION,
     description='Self use tool.',
-    packages=find_packages(exclude=('test*',)),
+    packages=find_packages(exclude=('tests*',)),
     author='Queensbarry',
     author_email='queensbarry@foxmail.com',
     url='https://github.com/Queensbarry/qb',
