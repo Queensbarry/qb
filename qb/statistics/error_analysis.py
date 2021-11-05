@@ -1,6 +1,6 @@
 import numpy as np
 from numpy.typing import ArrayLike
-from tool import check_two_array
+from .tool import check_two_array
 from typing import Callable
 
 

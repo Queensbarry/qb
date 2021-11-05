@@ -13,6 +13,7 @@
 Queensbarry Tools Collection
 ----
 
+- geo
 - statistics
     - error analysis
 - pako: use for decode and encode object
