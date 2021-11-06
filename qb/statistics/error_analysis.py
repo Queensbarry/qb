@@ -85,7 +85,7 @@ def root_mean_squared_error(a: ArrayLike, b: ArrayLike, *, is_nan_warning=True, 
         nan_warning_criterion=nan_warning_criterion
     )
 
-    return np.sqrt(np.power(a - b, 2).sum() / (a - b).sum())
+    return np.sqrt(np.power(a - b, 2).sum() / a.size)
 
 
 def mean_squared_error(a: ArrayLike, b: ArrayLike, *, is_nan_warning=True, nan_warning_criterion=0.3):
@@ -106,7 +106,7 @@ def mean_squared_error(a: ArrayLike, b: ArrayLike, *, is_nan_warning=True, nan_w
         nan_warning_criterion=nan_warning_criterion
     )
 
-    return np.power(a - b, 2).sum() / (a - b).sum()
+    return np.power(a - b, 2).sum() / a.size
 
 
 # --- 以下为别名 ---
