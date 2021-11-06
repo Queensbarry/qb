@@ -11,7 +11,7 @@ setup(
     author='Queensbarry',
     author_email='queensbarry@foxmail.com',
     url='https://github.com/Queensbarry/qb',
-    license='GPL License',
+    license='LICENSE',
     python_requires='>3.7',
     include_package_data=True,
     install_requires=[
